@@ -1,23 +1,38 @@
 // length
 
+var arr =[1,2,3,4,5];
 
-var nome = "Luan";
+console.log(arr.length);
 
-console.log(nome.length);
+//push adiciona
 
-var obj = "bola";
+arr.push(6);
+arr.push("Qualquer coisa");
 
-console.log(obj.length);
+console.log(arr);
 
-console.log(nome[3]);
+// pop remove itens no fim do array;
 
-var frase = "Eu vou ser um grande programador!";
+arr.pop();
 
-console.log(frase.indexOf("programador"));
+console.log(arr);
 
+//unishift adciona no começo do array;
+arr.unshift(0);
 
-//slice
+console.log(arr);
 
-var programador = frase.slice(21,32);
+//shift 
+arr.shift();
 
-console.log(programador);
+console.log(arr);
+
+//acessar o ultimo elemento
+
+console.log(arr[arr.length - 1]);
+
+//isArray
+
+console.log(Array.isArray(5));
+
+console.log(Array.isArray(arr));
