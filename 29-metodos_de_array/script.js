@@ -36,3 +36,7 @@ console.log(arr[arr.length - 1]);
 console.log(Array.isArray(5));
 
 console.log(Array.isArray(arr));
+
+var nome = luan;
+
+console.log(nome);
